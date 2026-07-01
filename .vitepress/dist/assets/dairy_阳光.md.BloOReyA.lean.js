@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,a2 as _}from"./chunks/framework.BWuWLRhz.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"dairy/阳光.md","filePath":"dairy/阳光.md"}'),r={name:"dairy/阳光.md"};function o(s,p,n,i,d,c){return t(),a("div",null,[...p[0]||(p[0]=[_("",35)])])}const f=e(r,[["render",o]]);export{m as __pageData,f as default};
