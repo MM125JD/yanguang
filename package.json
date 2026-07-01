@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vitepress dev",
     "docs:dev": "vitepress dev --force",
-    "build": "vitepress build",
+    "build": "npx node-install-version 20 && vitepress build",
     "preview": "vitepress preview"
   },
   "devDependencies": {
