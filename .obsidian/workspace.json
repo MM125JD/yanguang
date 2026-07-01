@@ -11,10 +11,14 @@
             "id": "7a3beab0c9ae2733",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "两种结果.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "两种结果"
             }
           }
         ]
@@ -192,19 +196,19 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "4072336679f777a8",
+  "active": "7a3beab0c9ae2733",
   "lastOpenFiles": [
-    "代码库/推箱子（两个关卡）.md",
-    "代码库/推箱子卡死墙上.md",
-    "代码库/推箱子（出生地无法通关）bug.md",
-    "两种结果.md",
-    "新建 文本文档.txt",
-    "dairy/未命名.md",
-    "dairy/好烦呀.md",
-    "index.md~",
     "dairy/index.md",
     "dairy/阳光.md",
     "dairy/我的日记.md",
+    "dairy/未命名.md",
+    "dairy/好烦呀.md",
+    "代码库/推箱子卡死墙上.md",
+    "代码库/推箱子（两个关卡）.md",
+    "代码库/推箱子（出生地无法通关）bug.md",
+    "两种结果.md",
+    "新建 文本文档.txt",
+    "index.md~",
     "dairy/两种结果.md",
     "index.md",
     "index 1.md",
