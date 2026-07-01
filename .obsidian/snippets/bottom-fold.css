@@ -1,0 +1,48 @@
+/* 1. 允许内部的悬浮按钮稍微借用一点外面的空间 */
+.callout[data-callout="sidebox"] {
+    overflow: visible;
+}
+
+/* 2. 核心魔法：把第一行的那个回顶链接，变成右侧悬浮电梯 */
+.callout[data-callout="sidebox"] .callout-content > p:first-child > a.internal-link {
+    position: sticky;
+    top: 20px; /* 当你往下滚时，它会停在距离屏幕顶部 20px 的位置 */
+    float: right; /* 把它狠狠地推到最右侧，避开你阅读的主视角 */
+
+    /* 把原本的文字链接美化成一个精致、半透明的现代按钮 */
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    color: var(--text-muted);
+    text-decoration: none; /* 去掉下划线 */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* 加一点悬浮阴影 */
+    z-index: 10;
+
+    /* 默认半透明，尽量降低存在感 */
+    opacity: 0.5;
+    transition: all 0.2s ease-in-out;
+
+    /* 微调位置，让它紧贴右边框 */
+    margin-right: -5px;
+    margin-bottom: 10px;
+    margin-left: 15px; /* 保证即使文字很长，左边的字也不会和它贴得太紧 */
+}
+
+/* 3. 鼠标移上去时，按钮变清晰、变亮，提示你可以点击 */
+.callout[data-callout="sidebox"] .callout-content > p:first-child > a.internal-link:hover {
+    opacity: 1;
+    background-color: rgba(var(--callout-color), 0.2);
+    color: var(--text-normal);
+    transform: translateY(-2px); /* 轻轻上浮一点 */
+}
+
+/* 4. 彻底干掉点击链接时的背景闪烁（保留我们之前的优化） */
+.is-flashing {
+    background-color: transparent !important;
+    animation: none !important;
+    box-shadow: none !important;
+}

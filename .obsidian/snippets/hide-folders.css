@@ -1,0 +1,10 @@
+/* 强行抹除左侧文件列表里的 node_modules 文件夹 */
+div[data-path="node_modules"] {
+    display: none !important;
+}
+
+/* 强行抹除左侧其他的冗余配置文件 */
+div[data-path="index.md"]
+ {
+    display: none !important;
+}

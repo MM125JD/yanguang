@@ -1,0 +1,42 @@
+/* 1. 基础设置 */
+.callout[data-callout="sidebox"] {
+    position: relative; /* 确立这是一个独立的作用域 */
+}
+
+/* 2. 核心魔法：把第一行的链接变成一个“固定在整个软件窗口”的神仙按钮 */
+.callout[data-callout="sidebox"] .callout-content > p:first-child > a.internal-link {
+    /* 使用 fixed，彻底无视任何父级盒子的限制，强制钉死在屏幕上 */
+    position: fixed;
+
+    /* 钉在整个 Obsidian 窗口的右上角附近（位置你可以随意微调） */
+    top: 100px;
+    right: 50px;
+
+    /* 按钮的美化 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-primary);
+    border: 2px solid var(--text-muted);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--text-normal);
+    text-decoration: none;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    z-index: 9999; /* 保证它绝对在最上层，不被任何东西挡住 */
+
+    width: 12px;           /* 平时极窄 */
+    height: 12px;          /* 平时极矮，变成一个小圆点 */
+    overflow: hidden;      /* 把文字藏起来 */
+    color: transparent;    /* 文字透明 */
+    border-radius: 50%;    /* 变成完美的圆形 */
+    opacity: 0.2;          /* 平时只有 20% 的可见度，几乎隐形 */
+}
+
+    /* 初始状态：完全透明，且不可点击（防止你平时误触） */
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+}
