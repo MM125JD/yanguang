@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a}from"./chunks/framework.BWuWLRhz.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"两种结果.md","filePath":"两种结果.md"}'),r={name:"两种结果.md"};function o(s,c,n,_,p,d){return t(),a("div")}const f=e(r,[["render",o]]);export{m as __pageData,f as default};

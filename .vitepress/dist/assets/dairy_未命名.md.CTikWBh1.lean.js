@@ -1,1 +1,0 @@
-import{_ as p,o as e,c as r,a2 as l}from"./chunks/framework.BWuWLRhz.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"dairy/未命名.md","filePath":"dairy/未命名.md"}'),t={name:"dairy/未命名.md"};function i(o,a,n,h,s,d){return e(),r("div",null,[...a[0]||(a[0]=[l("",60)])])}const u=p(t,[["render",i]]);export{c as __pageData,u as default};
