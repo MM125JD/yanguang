@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dairy/index.md",
+                "file": "两种结果.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "两种结果"
             }
           }
         ]
@@ -198,13 +198,13 @@
   },
   "active": "7a3beab0c9ae2733",
   "lastOpenFiles": [
+    "dairy/index.md",
     "yang/sdsd.md",
     "yang/sdsd.txt",
     "yang/新建 文本文档.txt",
     "yang",
     "新建文件夹",
     "两种结果.md",
-    "dairy/index.md",
     "dairy/未命名.md",
     "dairy/好烦呀.md",
     "dairy/我的日记.md",
