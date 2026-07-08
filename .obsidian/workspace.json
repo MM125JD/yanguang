@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dairy/好烦呀.md",
+                "file": "两种结果.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "好烦呀"
+              "title": "两种结果"
             }
           }
         ]
@@ -198,12 +198,12 @@
   },
   "active": "7a3beab0c9ae2733",
   "lastOpenFiles": [
+    "dairy/index.md",
     "dairy/未命名.md",
     "dairy/我的日记.md",
     "dairy/阳光.md",
-    "dairy/index.md",
-    "两种结果.md",
     "dairy/好烦呀.md",
+    "两种结果.md",
     "代码库/推箱子卡死墙上.md",
     "代码库/推箱子（两个关卡）.md",
     "代码库/推箱子（出生地无法通关）bug.md",
