@@ -11,7 +11,7 @@ const rootDir = path.resolve(__dirname, '..')
 const autoSidebar = []
 
 // 需要被忽略的系统级垃圾文件夹和文件
-const blacklist = ['.git', '.github', '.idea', '.obsidian', '.vitepress', 'node_modules', 'public']
+const blacklist = ['.git', '.github', '.idea', '.obsidian','node_modules', 'public']
 
 if (fs.existsSync(rootDir)) {
   const items = fs.readdirSync(rootDir)
@@ -32,6 +32,7 @@ if (fs.existsSync(rootDir)) {
               link: `/${item}/${name}`
             }
           })
+      
 
       // 如果文件夹里有 md 文件，就自动在侧边栏生成一个大分类
       if (files.length > 0) {

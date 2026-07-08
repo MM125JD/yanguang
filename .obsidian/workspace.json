@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "两种结果.md",
+                "file": "dairy/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "两种结果"
+              "title": "index"
             }
           }
         ]
@@ -198,12 +198,17 @@
   },
   "active": "7a3beab0c9ae2733",
   "lastOpenFiles": [
+    "yang/sdsd.md",
+    "yang/sdsd.txt",
+    "yang/新建 文本文档.txt",
+    "yang",
+    "新建文件夹",
+    "两种结果.md",
     "dairy/index.md",
     "dairy/未命名.md",
+    "dairy/好烦呀.md",
     "dairy/我的日记.md",
     "dairy/阳光.md",
-    "dairy/好烦呀.md",
-    "两种结果.md",
     "代码库/推箱子卡死墙上.md",
     "代码库/推箱子（两个关卡）.md",
     "代码库/推箱子（出生地无法通关）bug.md",
@@ -219,10 +224,6 @@
     "dairy/node_modules",
     "node_modules/js-yaml/bin/js-yaml.js",
     "node_modules/js-yaml/bin",
-    "node_modules/js-yaml/lib/js-yaml/type/null.js",
-    "node_modules/js-yaml/lib/js-yaml/type/merge.js",
-    "node_modules/js-yaml/lib/js-yaml/mark.js",
-    "node_modules/js-yaml/lib/js-yaml/type/map.js",
     "node_modules/esprima/README.md",
     "node_modules/argparse/README.md",
     "node_modules/argparse/CHANGELOG.md",
